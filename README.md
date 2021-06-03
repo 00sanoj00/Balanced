@@ -36,6 +36,8 @@ How to `Encrypt String`
 import com.sanoj.balanced.encript.decript.BED;
 
 String mEncriptext = BED.encryptToBase64String("My String","mykey");
+
+E.X
 String mEncriptext = BED.encryptToBase64String("Hi How Are You","12345");
 ```
 How to `Decrypt String`
@@ -43,5 +45,7 @@ How to `Decrypt String`
 import com.sanoj.balanced.encript.decript.BED;
 
 String mDecrypt = BED.decryptBase64StringToString("My decrypt String ","mykey");
+
+E.X
 String mDecrypt = BED.decryptBase64StringToString("5iKauOrKFRS1/9xQVi/icmUhAEmGSHGqxmv3YsOVYZ2nZgtnBwjF9+SmkPX3RYLcijcXdQ== ","12345");
 ```
