@@ -5,7 +5,7 @@ Library Availbale at JitPack.io
 
 Easy way to Encrypt/Decrypt string in Android.
 
-[<img src="/device-2021-06-04-000507.png" align="left"
+[<img src="/device-2021-06-04-000507.png"
 width="300"
     hspace="10" vspace="10">](/readme/Wallabag%20Reading%20List.png)
     
