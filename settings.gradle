@@ -1,0 +1,3 @@
+include ':BalancedED'
+include ':app'
+rootProject.name = "Balanced"

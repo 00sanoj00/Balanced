@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:layout_marginTop="15dp"
+        android:textColorHint="@color/hint"
+        android:layout_marginLeft="15dp"
+        android:gravity="top|left"
+        android:textColor="@color/white"
+        android:paddingTop="5dp"
+        android:paddingLeft="12dp"
+        android:hint="Enter Encript Key"
+        android:layout_marginRight="15dp"
+        android:background="@drawable/edittextbg"
+        android:id="@+id/mykey">
+
+    </EditText>
+
+    <LinearLayout
+        android:weightSum="2"
+        android:orientation="horizontal"
+        android:id="@+id/topchooser"
+        android:layout_below="@+id/mykey"
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+
+        <CheckBox
+            android:layout_weight="1"
+            android:id="@+id/checkBox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Encript String"
+            android:layout_marginLeft="25dp" />
+
+        <CheckBox
+            android:layout_weight="1"
+            android:id="@+id/checkBox2"
+            android:layout_marginRight="25dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Decript String" />
+    </LinearLayout>
+
+
+    <EditText
+        android:gravity="top|left"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/clicked"
+        android:layout_below="@+id/topchooser"
+        android:paddingTop="5dp"
+        android:inputType="textMultiLine"
+        android:paddingLeft="12dp"
+        android:background="@drawable/edittextbg"
+        android:layout_marginTop="15dp"
+        android:textColorHint="@color/hint"
+        android:hint="Enter Your String"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:textColor="@color/white"
+        android:layout_marginBottom="15dp"
+        android:id="@+id/input">
+    </EditText>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:id="@+id/clicked"
+        android:layout_marginLeft="15dp"
+        android:textColorHint="@color/white"
+        android:layout_marginRight="15dp"
+        android:layout_centerInParent="true"
+        android:text="Encript / Decript String">
+
+    </Button>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="15dp"
+        android:inputType="textMultiLine"
+        android:paddingTop="5dp"
+        android:id="@+id/output"
+        android:paddingLeft="12dp"
+        android:gravity="top|left"
+        android:textColorHint="@color/hint"
+        android:textColor="@color/white"
+        android:hint="Output Encript String"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginBottom="15dp"
+        android:layout_below="@id/clicked"
+        android:background="@drawable/edittextbg">
+
+    </EditText>
+
+
+
+
+
+</RelativeLayout>
