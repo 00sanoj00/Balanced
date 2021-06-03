@@ -3,7 +3,7 @@ Library Availbale at JitPack.io
 
 [![](https://jitpack.io/v/00sanoj00/Balanced.svg)](https://jitpack.io/#00sanoj00/Balanced)
 
-Easy way to Encrypt/Decrypt string in Android.
+😍⭐⭐  Easy way to Encrypt/Decrypt string in Android.😍⭐⭐
 
 [<img src="/device-2021-06-04-000507.png"
 width="300"
